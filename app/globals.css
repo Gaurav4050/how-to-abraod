@@ -74,3 +74,9 @@
       @apply bg-background text-foreground;
     }
   }
+
+  /* .search-course::webkit- */
+  /* hide scoll bar/ */
+  .search-course::-webkit-scrollbar {
+    display: none;
+  }
