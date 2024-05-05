@@ -1,9 +1,6 @@
 import { Metadata } from "next"
-import Image from "next/image"
-import Link from "next/link"
 
-import { cn } from "@/lib/utils"
-import { Button, buttonVariants } from "@/components/ui/button"
+import { Button} from "@/components/ui/button"
 import {
   Card,
   CardContent,
