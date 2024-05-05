@@ -59,8 +59,7 @@ export default function AuthenticationPage() {
                 <CardFooter className="flex flex-col">
                   <Button className="w-full">Login</Button>
                   <p className="mt-2 text-xs text-center text-gray-700">
-                    {" "}
-                    Don't have an account?{" "}
+                    Don't have an account?
                     <span className=" text-blue-600 hover:underline">
                       Sign up
                     </span>
@@ -69,23 +68,7 @@ export default function AuthenticationPage() {
               </Card>
             
 
-            <p className="px-8 text-center text-sm text-muted-foreground">
-              By clicking continue, you agree to our{" "}
-              <Link
-                href="/terms"
-                className="underline underline-offset-4 hover:text-primary"
-              >
-                Terms of Service
-              </Link>{" "}
-              and{" "}
-              <Link
-                href="/privacy"
-                className="underline underline-offset-4 hover:text-primary"
-              >
-                Privacy Policy
-              </Link>
-              .
-            </p>
+           
           </div>
         </div>
       </div>
