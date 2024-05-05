@@ -210,7 +210,7 @@ const SearchCourse = () => {
 
           <div >
             <h2 className="text-2xl font-semibold mb-1 pt-5 pl-4 ">Filter Courses</h2>
-            <div className="rounded p-4 mb-4  h-[70vh] ">
+            <div className="rounded p-4 mb-4 h-full md:h-[70vh] ">
               {/* Filters content goes here */}
               {/* Example: */}
               <div className="mb-2 w-full mt-0">
